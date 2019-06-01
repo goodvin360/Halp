@@ -1,0 +1,20 @@
+#
+#
+##########################################################################
+#
+# AmBeNeutronVertex.gps
+#
+# This macro file sets G4GPS parameters to produce an isotropic
+# point source of neutrons with a Americium-241/Beryllium energy
+# spectrum. The neutron energy spectrum was taken from
+# ISO Report 8529-1 (March 2000), Table 3
+# http://dpnc.unige.ch/~rapin/AmBe/Neutron-ISO-DIS-8529-1.pdf
+#
+##########################################################################
+#
+
+
+/my_dir1/SetParticleCounts 1000000
+/my_dir2/SetCountsStep 10000
+/run/beamOn 1000000
+
